@@ -1,0 +1,33 @@
+{
+    "plugins": [
+      "mocha"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "airbnb",
+    "rules": {
+      "eol-last": 0,
+      "arrow-body-style": 0,
+      "radix": 0,
+      "func-names": 0,
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "react/forbid-prop-types": [0],
+      "react/no-array-index-key": [0]
+    },
+    "globals": {
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect",
+      "shallow",
+      "spy",
+      "mount"
+    }
+}
